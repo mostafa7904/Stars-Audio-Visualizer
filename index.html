@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star visualizer</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <input
+      type="file"
+      name="audioFile"
+      id="audioFile"
+      accept=".mp3,.avi,.wav"
+      onformchange="addFile"
+    />
+    <canvas id="canvas"> </canvas>
+
+    <a
+      href="https://www.github.com/mostafa7904/star-audio-visualizer"
+      class="github-logo"
+    >
+      <img width="50" height="50" src="./GitHub-Mark.png" alt="Github" />
+    </a>
+    <script src="./script.js" async></script>
+  </body>
+</html>
